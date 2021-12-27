@@ -1,17 +1,19 @@
 export class SoundController {
-    fly: HTMLAudioElement;
-    hit: HTMLAudioElement;
-    score: HTMLAudioElement;
+  fly: HTMLAudioElement;
 
-    constructor() {
-        this.fly = this.createSound( 'sounds/sfx_swooshing.wav')
-        this.fly.playbackRate = 5
+  hit: HTMLAudioElement;
 
-        this.hit = this.createSound('sounds/sfx_hit.wav')
-        this.score = this.createSound('sounds/sfx_point.wav')
-    }
+  score: HTMLAudioElement;
 
-    private createSound(src: string): HTMLAudioElement {
-        return new Audio(src)
-    }
+  constructor() {
+    this.fly = this.createSound('sounds/sfx_swooshing.wav');
+    this.fly.playbackRate = 5;
+
+    this.hit = this.createSound('sounds/sfx_hit.wav');
+    this.score = this.createSound('sounds/sfx_point.wav');
+  }
+
+  private createSound(src: string): HTMLAudioElement {
+    return new Audio(src);
+  }
 }

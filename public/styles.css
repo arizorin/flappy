@@ -12,6 +12,7 @@ canvas {
     display: block;
     border: 1px solid gray;
     margin: 1rem;
+    image-rendering: pixelated;
 }
 
 .score {
