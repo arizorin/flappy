@@ -4,11 +4,11 @@ export class SoundController {
     score: HTMLAudioElement;
 
     constructor() {
-        this.fly = this.createSound( '/sounds/sfx_swooshing.wav')
+        this.fly = this.createSound( 'sounds/sfx_swooshing.wav')
         this.fly.playbackRate = 5
 
-        this.hit = this.createSound('/sounds/sfx_hit.wav')
-        this.score = this.createSound('/sounds/sfx_point.wav')
+        this.hit = this.createSound('sounds/sfx_hit.wav')
+        this.score = this.createSound('sounds/sfx_point.wav')
     }
 
     private createSound(src: string): HTMLAudioElement {

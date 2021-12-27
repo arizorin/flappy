@@ -6,16 +6,16 @@ export class ImageController {
 
     constructor() {
         this.bang = new Image();
-        this.bang.src = '/sprites/bang.png'
+        this.bang.src = 'sprites/bang.png'
 
         this.player = new Image();
-        this.player.src = '/sprites/bird.png';
+        this.player.src = 'sprites/bird.png';
 
         this.background = new Image();
-        this.background.src = '/sprites/background.jpg';
+        this.background.src = 'sprites/background.jpg';
 
 
         this.pipe = new Image();
-        this.pipe.src = '/sprites/pipe.png';
+        this.pipe.src = 'sprites/pipe.png';
     }
 }
