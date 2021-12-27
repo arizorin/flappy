@@ -80,13 +80,13 @@ export class Player {
   }
 
   public saveHighestScore() {
-    if (this.score > this.highestScore) {
-      window.localStorage.setItem('HIGHEST', this.score.toString());
+    if (this.score >= this.highestScore) {
+      window.localStorage.setItem('HIGHEST_SCORE', this.score.toString());
     }
   }
 
   private getHighestScore():number {
-    const value = window.localStorage.getItem('HIGHEST');
+    const value = window.localStorage.getItem('HIGHEST_SCORE');
     return value ? Number(value) : 0;
   }
 
