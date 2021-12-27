@@ -36,7 +36,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _Pla
   \********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"ImageController\": () => (/* binding */ ImageController)\n/* harmony export */ });\nclass ImageController {\r\n    constructor() {\r\n        this.bang = new Image();\r\n        this.bang.src = 'sprites/bang.png';\r\n        this.player = new Image();\r\n        this.player.src = 'sprites/bird.png';\r\n        this.background = new Image();\r\n        this.background.src = 'sprites/background.jpg';\r\n        this.pipeTop = new Image();\r\n        this.pipeTop.src = 'sprites/pipeTop.png';\r\n        this.pipeBottom = new Image();\r\n        this.pipeBottom.src = 'sprites/pipeBottom.png';\r\n    }\r\n}\r\n\n\n//# sourceURL=webpack://flappy-bird/./src/ImageController.ts?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"ImageController\": () => (/* binding */ ImageController)\n/* harmony export */ });\nclass ImageController {\r\n    constructor() {\r\n        this.bang = new Image();\r\n        this.bang.src = 'assets/sprites/bang.png';\r\n        this.player = new Image();\r\n        this.player.src = 'assets/sprites/bird.png';\r\n        this.background = new Image();\r\n        this.background.src = 'assets/sprites/background.jpg';\r\n        this.pipeTop = new Image();\r\n        this.pipeTop.src = 'assets/sprites/pipeTop.png';\r\n        this.pipeBottom = new Image();\r\n        this.pipeBottom.src = 'assets/sprites/pipeBottom.png';\r\n    }\r\n}\r\n\n\n//# sourceURL=webpack://flappy-bird/./src/ImageController.ts?");
 
 /***/ }),
 
@@ -66,7 +66,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"SoundController\": () => (/* binding */ SoundController)\n/* harmony export */ });\nclass SoundController {\r\n    constructor() {\r\n        this.fly = this.createSound('sounds/sfx_swooshing.wav');\r\n        this.fly.playbackRate = 5;\r\n        this.hit = this.createSound('sounds/sfx_hit.wav');\r\n        this.score = this.createSound('sounds/sfx_point.wav');\r\n    }\r\n    createSound(src) {\r\n        return new Audio(src);\r\n    }\r\n}\r\n\n\n//# sourceURL=webpack://flappy-bird/./src/SoundController.ts?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"SoundController\": () => (/* binding */ SoundController)\n/* harmony export */ });\nclass SoundController {\r\n    constructor() {\r\n        this.fly = this.createSound('assets/sounds/sfx_swooshing.wav');\r\n        this.fly.playbackRate = 5;\r\n        this.hit = this.createSound('assets/sounds/sfx_hit.wav');\r\n        this.score = this.createSound('assets/sounds/sfx_point.wav');\r\n    }\r\n    createSound(src) {\r\n        return new Audio(src);\r\n    }\r\n}\r\n\n\n//# sourceURL=webpack://flappy-bird/./src/SoundController.ts?");
 
 /***/ }),
 

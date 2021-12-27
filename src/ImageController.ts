@@ -10,18 +10,18 @@ export class ImageController {
 
   constructor() {
     this.bang = new Image();
-    this.bang.src = 'sprites/bang.png';
+    this.bang.src = 'assets/sprites/bang.png';
 
     this.player = new Image();
-    this.player.src = 'sprites/bird.png';
+    this.player.src = 'assets/sprites/bird.png';
 
     this.background = new Image();
-    this.background.src = 'sprites/background.jpg';
+    this.background.src = 'assets/sprites/background.jpg';
 
     this.pipeTop = new Image();
-    this.pipeTop.src = 'sprites/pipeTop.png';
+    this.pipeTop.src = 'assets/sprites/pipeTop.png';
 
     this.pipeBottom = new Image();
-    this.pipeBottom.src = 'sprites/pipeBottom.png';
+    this.pipeBottom.src = 'assets/sprites/pipeBottom.png';
   }
 }
